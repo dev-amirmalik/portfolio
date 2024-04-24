@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     outDir: "docs",
   },
-  base: "/portfolio",
+  base: process.env.NODE_ENV == "production" ? "/portfolio" : "",
   plugins: [vue()],
   server: {
     port: 8080,

@@ -1,0 +1,72 @@
+<template>
+  <div class="p-4 w-full flex flex-col gap-4 pb-8">
+    <div class="flex justify-between gap-4 items-center">
+      <h1 class="text-2xl">
+        <b>{{ title }}</b>
+      </h1>
+      <o-button @click="closeModal"
+        ><o-icon
+          class="text-black flex items-center"
+          size="medium"
+          icon="xmark"
+          pack="fa"
+        ></o-icon
+      ></o-button>
+    </div>
+    <o-carousel iconPack="fa">
+      <o-carousel-item v-for="(carousel, i) in images" :key="i">
+        <figure class="carousel__image-wrapper">
+          <img :src="carousel" alt="" />
+        </figure>
+      </o-carousel-item>
+    </o-carousel>
+    <div>
+      <b>Description</b>
+      <p>{{ description }}</p>
+    </div>
+    <div>
+      <b>Role</b>
+      <p>{{ projectRole }}</p>
+    </div>
+    <div>
+      <b>Tech</b>
+      <p>{{ tech }}</p>
+    </div>
+  </div>
+</template>
+<script setup lang="ts">
+defineProps({
+  title: {
+    type: String,
+  },
+  images: {
+    type: Array<string>,
+    default: () => [],
+  },
+  description: {
+    type: String,
+  },
+  tech: {
+    type: String,
+  },
+  projectRole: {
+    type: String,
+  },
+});
+
+const emits = defineEmits(["close"]);
+function closeModal() {
+  emits("close");
+}
+</script>
+
+<style lang="scss">
+.carousel {
+  &__image-wrapper {
+    max-height: 400px;
+    img {
+      object-fit: contain;
+    }
+  }
+}
+</style>
