@@ -1,3 +1,5 @@
+const assetsPath = import.meta.env.MODE === "production" ? "/portfolio" : ""
+
 export interface PortfolioData {
     mainImageUrl: string,
     images: string[],
@@ -17,8 +19,8 @@ export interface TechData{
 }
 
 export const PORTFOLIO_LIST : PortfolioData[] = [{
-    mainImageUrl: "/assets/img/portfolio/xtremax-revamp/1.png",
-    images: ["/assets/img/portfolio/xtremax-revamp/1.png", "/assets/img/portfolio/xtremax-revamp/2.png"],
+    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    images: [`${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`, `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`],
     title: "Xtremax Revamp",
     shortDescription: "Revamp the company profile of xtremax.",
     mainDescription: "Revamp the company profile of xtremax. The base of the project is nuxt2 and using nimvio as headless CMS. This website includes several css animation such as GSAP and slick slider.",
