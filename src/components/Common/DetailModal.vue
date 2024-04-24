@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 w-full flex flex-col gap-4 pb-8">
+  <div class="p-4 w-full flex flex-col gap-4 pb-8 md:min-w-[900px]">
     <div class="flex justify-between gap-4">
       <div>
         <h1 class="text-2xl">
@@ -36,6 +36,13 @@
       <p>{{ tech }}</p>
     </div>
   </div>
+  <div class="text-center p-5">
+    <a v-if="url" :href="url" target="_blank" rel="noopener noreferrer"
+      ><o-button variant="primary" class="bg-yellow-600"
+        >Open Website</o-button
+      ></a
+    >
+  </div>
 </template>
 <script setup lang="ts">
 import { computed } from "vue";
@@ -63,6 +70,9 @@ const props = defineProps({
   projectType: {
     type: String,
   },
+  url: {
+    type: String,
+  },
 });
 
 const yearOfProject = computed(() => {
@@ -78,9 +88,11 @@ function closeModal() {
 <style lang="scss">
 .carousel {
   &__image-wrapper {
-    max-height: 400px;
+    height: 400px;
     img {
+      @apply w-full h-full;
       object-fit: contain;
+      object-position: center;
     }
   }
 }

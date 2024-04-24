@@ -1,11 +1,46 @@
 <template>
   <section class="px-4 py-10 text-center flex flex-col gap-10">
     <h2 class="text-[40px] font-bold uppercase">Main Skills</h2>
-    <div class="flex gap-20 w-full justify-center">
-      <o-icon class="text-[80px]" pack="fab" icon="vuejs"></o-icon>
-      <o-icon class="text-[80px]" pack="fab" icon="html5"></o-icon>
-      <o-icon class="text-[80px]" pack="fab" icon="css3-alt"></o-icon>
-      <o-icon class="text-[80px]" pack="fab" icon="js"></o-icon>
+    <div class="flex gap-2 sm:gap-6 md:gap-20 w-full justify-center">
+      <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer"
+        ><o-icon
+          class="text-[80px] hover:text-yellow-600"
+          pack="fab"
+          icon="vuejs"
+        ></o-icon
+      ></a>
+      <a
+        href="https://en.wikipedia.org/wiki/HTML5#:~:text=HTML5%20(Hypertext%20Markup%20Language%205,as%20the%20HTML%20Living%20Standard."
+        target="_blank"
+        rel="noopener noreferrer"
+        ><o-icon
+          class="text-[80px] hover:text-yellow-600"
+          pack="fab"
+          icon="html5"
+        ></o-icon
+      ></a>
+      <a
+        href="https://en.wikipedia.org/wiki/CSS"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <o-icon
+          class="text-[80px] hover:text-yellow-600"
+          pack="fab"
+          icon="css3-alt"
+        ></o-icon
+      ></a>
+      <a
+        href="https://www.javascript.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <o-icon
+          class="text-[80px] hover:text-yellow-600"
+          pack="fab"
+          icon="js"
+        ></o-icon
+      ></a>
     </div>
     <div>
       <h2 class="font-bold">Other Skills</h2>

@@ -36,10 +36,9 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/nt-cmp/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/nt-cmp/1.png`,
     ],
     title: "NT Thailand CMP",
     shortDescription:
@@ -53,10 +52,9 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/xbase-template/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/xbase-template/1.png`,
     ],
     title: "XBase",
     shortDescription:
@@ -70,27 +68,25 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Template Image",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/xbase-ui/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/xbase-ui/1.png`,
     ],
     title: "XBase UI",
     shortDescription:
       "The project purpose is to create an UI library to make development faster",
     mainDescription:
       "The project purpose is to create an UI library to make development faster using the best practice that has been researched before.",
-    url: "",
+    url: "https://xbase-ui.dev.xtremax.com/",
     tech: "Vuejs, Vuex, Pinia, Tailwind css, Microservice, Micro-frontend, HTML5, CSS3, SCSS, javascript",
     projectRole: "Frontend Developer",
     date: "2023-12-21T00:00:00Z",
     projectType: "Library",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/pupr-bim/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/pupr-bim/1.png`,
     ],
     title: "PUPR BIM Dashboard",
     shortDescription:
@@ -104,10 +100,9 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/pupr-bim/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/pupr-bim/1.png`,
     ],
     title: "SMKK",
     shortDescription:
@@ -121,27 +116,25 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/joyland-webapp/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/joyland-webapp/1.png`,
     ],
     title: "Joyland",
     shortDescription:
       "Joyland is a web portal as a marketing site , such as posting new events, line up, etc",
     mainDescription:
       "Joyland is a web portal as a marketing site , such as posting new events, line up, etc.",
-    url: "",
+    url: "https://joylandfest.com/",
     tech: "HTML5, CSS3, Tailwind css, SCSS, javascript",
     projectRole: "Frontend Developer",
     date: "2023-11-19T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/pupr-ikn/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/pupr-ikn/1.png`,
     ],
     title: "PUPR IKN Dashboard",
     shortDescription:
@@ -158,7 +151,6 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
     images: [
       `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
     ],
     title: "Halalin",
     shortDescription:
@@ -172,10 +164,9 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/pixbox/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/pixbox/1.png`,
     ],
     title: "Pixbox",
     shortDescription:
@@ -189,129 +180,121 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/pupr-sitaba/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/pupr-sitaba/1.png`,
     ],
     title: "PUPR Sitaba",
     shortDescription:
       "The portal is to see the progression of the PUPR project in several sites",
     mainDescription:
       "The portal is to see the progression of the PUPR project in several sites",
-    url: "",
+    url: "https://sitaba.pu.go.id/",
     tech: "Vuejs, Vuex, HTML5, CSS3, SCSS, javascript",
     projectRole: "Frontend Developer",
     date: "2021-11-16T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/mas-ba/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/mas-ba/1.png`,
     ],
     title: "MAS BA (Monetary Authority of Singapore - Billing Aggregator)",
     shortDescription:
       "This portal is for Billing Aggregator for MAS Users/Customers",
     mainDescription:
       "This portal is for Billing Aggregator for MAS Users/Customers",
-    url: "",
+    url: "https://billingportal.mas.gov.sg/billing/",
     tech: "Vuejs, Vuex, Microservice, Micro-frontend, HTML5, CSS3, SCSS, javascript",
     projectRole: "Frontend Developer",
     date: "2021-11-15T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/nimbus-stream/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/nimbus-stream/1.png`,
     ],
     title: "NIMBUS Stream",
     shortDescription:
       "This portal is to get the cost report, optimize the cost and check the anomaly of the CSP",
     mainDescription:
       "This portal is to get the cost report, optimize the cost and check the anomaly of the CSP",
-    url: "",
+    url: "https://nimbusstream.com/",
     tech: "Vuejs, Vuex, Microservice, Micro-frontend, HTML5, CSS3, SCSS, javascript",
     projectRole: "Frontend Developer",
     date: "2020-11-15T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/gcci-cmp/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/gcci-cmp/1.png`,
     ],
     title: "GCCI (Government on Commercial Cloud)",
     shortDescription:
       "This site has the ability to combine big CSPs in the world.",
     mainDescription:
       "This portal is CMP (Cloud Management Portal). This site has the ability to combine big CSPs in the world. Such as AWS, Azure, and GCP. This portal only for Singapore Government.",
-    url: "",
+    url: "https://www.developer.tech.gov.sg/products/categories/infrastructure-and-hosting/government-on-commercial-cloud/overview.html",
     tech: "Vuejs, Vuex, Microservice, Micro-frontend, HTML5, CSS3, SCSS, javascript",
     projectRole: "Frontend Developer",
     date: "2019-11-15T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/chingay-webapp/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/chingay-webapp/1.png`,
     ],
     title: "Chingay",
     shortDescription:
       "Web portal as marketing site for chingay community singapore",
     mainDescription:
       "Web portal as marketing site for chingay community singapore",
-    url: "",
+    url: "https://www.chingay.gov.sg/",
     tech: "HTML5, CSS3, SCSS, javascript, jQuery",
     projectRole: "Frontend Developer",
     date: "2018-11-14T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/reach-portal/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/reach-portal/1.png`,
     ],
     title: "REACH Portal",
     shortDescription:
       "Web portal as marketing site for REACH Gov SG",
     mainDescription:
       "Web portal as marketing site for REACH Gov SG",
-    url: "",
+    url: "https://www.reach.gov.sg/",
     tech: "HTML5, CSS3, SCSS, javascript, jQuery",
     projectRole: "Frontend Developer",
     date: "2018-11-13T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/csa-singcert/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/csa-singcert/1.png`,
     ],
     title: "SingCERT (Part of CSA Project)",
     shortDescription:
       "Web portal as marketing site for SingCERT part of CSA Gov SG",
     mainDescription:
       "Web portal as marketing site for SingCERT part of CSA Gov SG",
-    url: "",
+    url: "https://www.csa.gov.sg/Explore/who-we-are/our-identity/about-singcert",
     tech: "HTML5, CSS3, SCSS, javascript, jQuery",
     projectRole: "Frontend Developer",
     date: "2018-11-12T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/csa-gso/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/csa-gso/1.png`,
     ],
     title: "GSO (Part of CSA Project)",
     shortDescription:
@@ -325,129 +308,128 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/csa-portal/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/csa-portal/1.png`,
     ],
     title: "CSA (Cyber Security Agency of Singapore) Portal",
     shortDescription:
       "Web portal as marketing site for CSA Gov SG",
     mainDescription:
       "Web portal as marketing site for CSA Gov SG",
-    url: "",
+    url: "https://www.csa.gov.sg/",
     tech: "HTML5, CSS3, SCSS, javascript, jQuery",
     projectRole: "Frontend Developer",
     date: "2018-11-10T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/nhb-portal/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/nhb-portal/1.png`,
     ],
     title: "NHB (National Heritage Board) Portal",
     shortDescription:
       "Web portal as marketing site for NHB Gov SG",
     mainDescription:
       "Web portal as marketing site for NHB Gov SG",
-    url: "",
+    url: "https://www.nhb.gov.sg/",
     tech: "HTML5, CSS3, SCSS, javascript, jQuery",
     projectRole: "Frontend Developer",
     date: "2018-10-30T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/cimb-moviz/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/cimb-moviz/1.png`,
+      `${assetsPath}/assets/img/portfolio/cimb-moviz/2.png`,
     ],
     title: "CIMB Niaga Mofiz",
     shortDescription:
       "Mobile Applications for leave permissions, memos, etc",
     mainDescription:
       "Mobile Applications for leave permissions, memos, and associated licensing permits using paper that is used as an application to enable it to reduce paper use in the enterprise",
-    url: "",
+    url: "https://play.google.com/store/apps/details?id=co.id.cimbniaga.mofiz.stagingProduction&hl=id&pli=1",
     tech: "Android, Kotlin, Java",
     projectRole: "Android Developer",
     date: "2017-10-29T00:00:00Z",
     projectType: "Mobile App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/insing-movie/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/insing-movie/1.png`,
+      `${assetsPath}/assets/img/portfolio/insing-movie/2.png`,
     ],
     title: "InSing Movie",
     shortDescription:
       "The app is used for checking movies of all cinemas in the app.",
     mainDescription:
       "The app is used for checking movies of all cinemas in the app. The user can reserve a ticket, review a movie, find a movie coming soon but the user cannot watch the movie from the app.",
-    url: "",
+    url: "https://download.cnet.com/insing-movies/3000-31713_4-76337909.html",
     tech: "Android, Kotlin, Java",
     projectRole: "Android Developer",
     date: "2017-10-28T00:00:00Z",
     projectType: "Mobile App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/jba-car/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/jba-car/1.png`,
+      `${assetsPath}/assets/img/portfolio/jba-car/2.png`,
     ],
     title: "Car Inspection System",
     shortDescription:
       "Android app for car inspection",
     mainDescription:
       "Android app for car inspection. Users of the app can give value for the car when the car is inspected by the user. total value and price will appear after inspection. This app only sends the value of the car and the calculation of car point and price will be done by web app.",
-    url: "",
+    url: "https://play.google.com/store/apps/details?id=com.upliftlab.car&hl=en_IE&gl=US",
     tech: "Android, Kotlin, Java",
     projectRole: "Android Developer",
     date: "2017-10-27T00:00:00Z",
     projectType: "Mobile App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/jba-bike/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/jba-bike/1.png`,
+      `${assetsPath}/assets/img/portfolio/jba-bike/2.png`,
     ],
     title: "Bike Inspection System",
     shortDescription:
       "Android app for bike inspection",
     mainDescription:
       "Android app for bike inspection. Users of the app can give value for the car when the bike is inspected by the user. total value and price will appear after inspection. This app only sends the value of the bike and the calculation of bike point and price will be done by web app.",
-    url: "",
+    url: "https://play.google.com/store/apps/details?id=com.upliftlab.bikeinspectionsystem&hl=en&gl=US",
     tech: "Android, Kotlin, Java",
     projectRole: "Android Developer",
     date: "2017-10-26T00:00:00Z",
     projectType: "Mobile App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/hgw-app/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/hgw-app/1.png`,
+      `${assetsPath}/assets/img/portfolio/hgw-app/2.png`,
     ],
     title: "HungryGoWhere",
     shortDescription:
       "The app is used to find and reserve restaurants based on your location",
     mainDescription:
       "The app is used to find and reserve restaurants based on your location (not required) or filter. Not only reserve, users can read details or restaurants and give a rating for the restaurant.",
-    url: "",
+    url: "https://hungrygowhere.com/",
     tech: "Android, Kotlin, Java",
     projectRole: "Android Developer",
     date: "2017-10-26T00:00:00Z",
     projectType: "Mobile App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/skyark-portal/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/skyark-portal/1.png`,
+      `${assetsPath}/assets/img/portfolio/skyark-portal/2.png`,
+      `${assetsPath}/assets/img/portfolio/skyark-portal/3.png`,
     ],
     title: "SKY ARK",
     shortDescription:
@@ -461,44 +443,43 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/wgea-portal/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/wgea-portal/1.png`,
+      `${assetsPath}/assets/img/portfolio/wgea-portal/2.png`,
     ],
     title: "WGEA",
     shortDescription:
       "Develop web app for WGEA from Badan Pemeriksa Keuangan (BPK) Indonesia",
     mainDescription:
       "Develop web app for WGEA from Badan Pemeriksa Keuangan (BPK) Indonesia. The web app is used by the WGEA community around the world. The web app shows an audit of several countries, an e-book of audit, list of past meetings or future meetings and news about the audit.",
-    url: "",
+    url: "https://www.environmental-auditing.org/",
     tech: "Umbraco CMS, C#, ASP.NET, MS SQL Server, Angular JS",
     projectRole: "Fullstack Developer",
     date: "2017-10-21T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/bc-sophie/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/bc-sophie/1.png`,
     ],
     title: "BC+ Sophie Paris",
     shortDescription:
       "Become Extended Team to upgrade feature of BC+ Sophie Paris website",
     mainDescription:
       "Become Extended Team to upgrade feature of BC+ Sophie Paris website. The website was used by a Sophie Paris client called BC. This website was used for checking quantity of product, PO, SO, creating reports etc.",
-    url: "",
+    url: "https://sophiemartin.com/",
     tech: "ASP.NET MVC, C#, PostgreSQL",
     projectRole: "Fullstack Developer",
     date: "2016-10-24T00:00:00Z",
     projectType: "Web App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/solatip-app/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/solatip-app/1.png`,
+      `${assetsPath}/assets/img/portfolio/solatip-app/2.png`,
     ],
     title: "Solatip",
     shortDescription:
@@ -512,10 +493,10 @@ export const PORTFOLIO_LIST: PortfolioData[] = [
     projectType: "Mobile App",
   },
   {
-    mainImageUrl: assetsPath + "/assets/img/portfolio/xtremax-revamp/1.png",
+    mainImageUrl: assetsPath + "/assets/img/portfolio/temploy-app/1.png",
     images: [
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/1.png`,
-      `${assetsPath}/assets/img/portfolio/xtremax-revamp/2.png`,
+      `${assetsPath}/assets/img/portfolio/temploy-app/1.png`,
+      `${assetsPath}/assets/img/portfolio/temploy-app/2.png`,
     ],
     title: "Temploy",
     shortDescription:

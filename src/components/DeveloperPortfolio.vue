@@ -1,9 +1,9 @@
 <template>
   <section class="bg-white content">
     <section class="px-4 py-10 text-center flex flex-col gap-10 text-black">
-      <h2 class="text-[40px] uppercase">Portofolio</h2>
+      <h2 class="text-[40px] uppercase">Portfolio</h2>
     </section>
-    <div class="grid grid-cols-4 gap-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <div
         class="card__wrapper"
         v-for="(item, index) in PORTFOLIO_LIST"
@@ -71,7 +71,9 @@ function showDetail(item: PortfolioData) {
     &:hover {
       transition: 0.2s;
       @apply shadow-2xl;
-
+      h2 {
+        @apply text-yellow-600;
+      }
       figure {
         img {
           transform: scale(1.2);
