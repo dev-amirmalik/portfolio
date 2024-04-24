@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     outDir: "docs",
   },
+  base: "/portfolio",
   plugins: [vue()],
   server: {
     port: 8080,
