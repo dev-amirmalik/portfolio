@@ -1,9 +1,12 @@
 <template>
   <div class="p-4 w-full flex flex-col gap-4 pb-8">
-    <div class="flex justify-between gap-4 items-center">
-      <h1 class="text-2xl">
-        <b>{{ title }}</b>
-      </h1>
+    <div class="flex justify-between gap-4">
+      <div>
+        <h1 class="text-2xl">
+          <b>{{ title }}</b>
+        </h1>
+        <p>{{ yearOfProject }} - {{ projectType }}</p>
+      </div>
       <o-button @click="closeModal"
         ><o-icon
           class="text-black flex items-center"
@@ -35,7 +38,9 @@
   </div>
 </template>
 <script setup lang="ts">
-defineProps({
+import { computed } from "vue";
+
+const props = defineProps({
   title: {
     type: String,
   },
@@ -52,6 +57,16 @@ defineProps({
   projectRole: {
     type: String,
   },
+  date: {
+    type: String,
+  },
+  projectType: {
+    type: String,
+  },
+});
+
+const yearOfProject = computed(() => {
+  return props.date ? new Date(props.date).getFullYear() : "2015";
 });
 
 const emits = defineEmits(["close"]);

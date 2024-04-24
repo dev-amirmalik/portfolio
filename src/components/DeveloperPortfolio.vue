@@ -39,11 +39,9 @@ function showDetail(item: PortfolioData) {
   oruga.modal.open({
     component: DetailModal,
     props: {
-      title: item.title,
-      images: item.images,
+      ...item,
       description: item.mainDescription,
       tech: tech,
-      projectRole: item.projectRole,
     },
     trapFocus: true,
     destroyOnHide: false,
@@ -56,7 +54,7 @@ function showDetail(item: PortfolioData) {
   &__wrapper {
     cursor: pointer;
     transition: 0.2s;
-    height: 300px;
+    // height: 300px;
     @apply flex flex-col gap-2;
     figure {
       height: 200px;
