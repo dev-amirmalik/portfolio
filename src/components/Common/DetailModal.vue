@@ -19,7 +19,7 @@
     <o-carousel iconPack="fa">
       <o-carousel-item v-for="(carousel, i) in images" :key="i">
         <figure class="carousel__image-wrapper">
-          <img :src="carousel" alt="" />
+          <img :src="assetsPath + carousel" :alt="title + '-photo'" />
         </figure>
       </o-carousel-item>
     </o-carousel>
@@ -74,7 +74,8 @@ const props = defineProps({
     type: String,
   },
 });
-
+const assetsPath =
+  import.meta.env.MODE === "production" ? (window as any).portfolio.prefix : "";
 const yearOfProject = computed(() => {
   return props.date ? new Date(props.date).getFullYear() : "2015";
 });

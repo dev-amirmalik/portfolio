@@ -7,7 +7,7 @@ const year = new Date().getFullYear();
   <div class="w-full">
     <RouterView />
     <div
-      class="w-ful px-4 py-2 bg-blue-950 text-white md:text-right gap-4 flex text-center md:justify-between md:flex-row flex-col"
+      class="w-ful px-4 py-4 md:py-2 bg-app-primary md:text-right gap-4 flex text-center md:justify-between md:flex-row flex-col"
     >
       <div class="flex gap-2 md:flex-row flex-col justify-center">
         <p class="flex gap-2 items-center hover:text-yellow-600">

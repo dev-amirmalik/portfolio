@@ -3,15 +3,15 @@
     <section class="px-4 py-10 text-center flex flex-col gap-10 text-black">
       <h2 class="text-[40px] uppercase">Portfolio</h2>
     </section>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
       <div
         class="card__wrapper"
         v-for="(item, index) in PORTFOLIO_LIST"
         :key="index"
         @click="showDetail(item)"
       >
-        <figure>
-          <img :src="item.mainImageUrl" :alt="item.title" />
+        <figure class="card__portfolio-image-wrapper">
+          <img :src="assetsPath + item.mainImageUrl" :alt="item.title" />
         </figure>
         <div class="p-2 flex flex-col gap-2">
           <h2 class="text-lg">
@@ -30,6 +30,8 @@ import DetailModal from "./Common/DetailModal.vue";
 import { useProgrammatic } from "@oruga-ui/oruga-next";
 const { oruga } = useProgrammatic();
 
+const assetsPath =
+  import.meta.env.MODE === "production" ? (window as any).portfolio.prefix : "";
 function showDetail(item: PortfolioData) {
   let tech = item.tech;
   if (Array.isArray(item.tech)) {
@@ -68,6 +70,10 @@ function showDetail(item: PortfolioData) {
       }
     }
 
+    h2 {
+      @apply md:text-inherit text-yellow-600;
+    }
+
     &:hover {
       transition: 0.2s;
       @apply shadow-2xl;
@@ -77,6 +83,7 @@ function showDetail(item: PortfolioData) {
       figure {
         img {
           transform: scale(1.2);
+          filter: none;
         }
       }
     }
@@ -85,6 +92,12 @@ function showDetail(item: PortfolioData) {
     height: 100px;
     text-overflow: ellipsis;
     overflow: hidden;
+  }
+
+  &__portfolio-image-wrapper {
+    img {
+      @apply md:grayscale;
+    }
   }
 }
 </style>

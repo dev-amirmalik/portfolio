@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-300">
+  <div class="bg-app-primary">
     <section class="p-4 h-screen flex flex-col justify-between">
       <div
         class="flex flex-col md:flex-row w-full justify-between gap-20 md:gap-0"
