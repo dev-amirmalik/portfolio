@@ -71,14 +71,14 @@ function showDetail(item: PortfolioData) {
     }
 
     h2 {
-      @apply md:text-inherit text-yellow-600;
+      @apply md:text-inherit text-orange-600;
     }
 
     &:hover {
       transition: 0.2s;
       @apply shadow-2xl;
       h2 {
-        @apply text-yellow-600;
+        @apply text-orange-600;
       }
       figure {
         img {

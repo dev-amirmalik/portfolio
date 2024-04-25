@@ -4,7 +4,7 @@
     <div class="flex gap-2 sm:gap-6 md:gap-20 w-full justify-center">
       <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer"
         ><o-icon
-          class="text-[80px] hover:text-yellow-600"
+          class="text-[80px] hover:text-orange-600"
           pack="fab"
           icon="vuejs"
         ></o-icon
@@ -14,7 +14,7 @@
         target="_blank"
         rel="noopener noreferrer"
         ><o-icon
-          class="text-[80px] hover:text-yellow-600"
+          class="text-[80px] hover:text-orange-600"
           pack="fab"
           icon="html5"
         ></o-icon
@@ -25,7 +25,7 @@
         rel="noopener noreferrer"
       >
         <o-icon
-          class="text-[80px] hover:text-yellow-600"
+          class="text-[80px] hover:text-orange-600"
           pack="fab"
           icon="css3-alt"
         ></o-icon
@@ -36,7 +36,7 @@
         rel="noopener noreferrer"
       >
         <o-icon
-          class="text-[80px] hover:text-yellow-600"
+          class="text-[80px] hover:text-orange-600"
           pack="fab"
           icon="js"
         ></o-icon

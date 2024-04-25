@@ -10,7 +10,7 @@ const year = new Date().getFullYear();
       class="w-ful px-4 py-4 md:py-2 bg-app-primary md:text-right gap-4 flex text-center md:justify-between md:flex-row flex-col"
     >
       <div class="flex gap-2 md:flex-row flex-col justify-center">
-        <p class="flex gap-2 items-center hover:text-yellow-600">
+        <p class="flex gap-2 items-center hover:text-orange-600">
           <i class="fab fa-linkedin"></i>
           <a
             class="hover:text-inherit"
@@ -18,7 +18,7 @@ const year = new Date().getFullYear();
             >LinkedIn</a
           >
         </p>
-        <p class="flex gap-2 items-center hover:text-yellow-600">
+        <p class="flex gap-2 items-center hover:text-orange-600">
           <i class="fa fa-envelope"></i>
           <a class="hover:text-inherit" href="mailto:dev.amirmalik@gmail.com"
             >dev.amirmalik@gmail.com</a

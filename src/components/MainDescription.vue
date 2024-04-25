@@ -6,7 +6,7 @@
       <figure class="w-[200px] h-[200px] rounded-full overflow-hidden">
         <img
           class="w-full h-full object-cover"
-          src="/assets/img/photo-amir-2.jpg"
+          src="/assets/img/photo-amir.jpg"
           alt="photo amir about"
         />
       </figure>

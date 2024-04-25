@@ -16,7 +16,7 @@
           class="h-[200px] w-[200px] md:h-[300px] md:w-[300px] md:w-auto rounded-full md:rounded-none overflow-hidden m-auto md:m-0"
         >
           <img
-            src="/assets/img/photo-amir.jpg"
+            src="/assets/img/photo-amir-3.jpg"
             class="w-full h-full md:object-contain object-cover"
             alt="photo developer"
           />

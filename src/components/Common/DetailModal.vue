@@ -38,7 +38,7 @@
   </div>
   <div class="text-center p-5">
     <a v-if="url" :href="url" target="_blank" rel="noopener noreferrer"
-      ><o-button variant="primary" class="bg-yellow-600"
+      ><o-button variant="primary" class="bg-orange-600"
         >Open Website</o-button
       ></a
     >

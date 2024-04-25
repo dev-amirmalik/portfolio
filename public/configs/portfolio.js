@@ -45,7 +45,10 @@ const projects = [
   },
   {
     mainImageUrl: "/assets/img/portfolio/xbase-ui/1.png",
-    images: [`/assets/img/portfolio/xbase-ui/1.png`],
+    images: [
+      `/assets/img/portfolio/xbase-ui/1.png`,
+      `/assets/img/portfolio/xbase-ui/2.png`,
+    ],
     title: "XBase UI",
     shortDescription:
       "The project purpose is to create an UI library to make development faster",
@@ -83,7 +86,11 @@ const projects = [
   },
   {
     mainImageUrl: "/assets/img/portfolio/joyland-webapp/1.png",
-    images: [`/assets/img/portfolio/joyland-webapp/1.png`],
+    images: [
+      `/assets/img/portfolio/joyland-webapp/1.png`,
+      `/assets/img/portfolio/joyland-webapp/2.png`,
+      `/assets/img/portfolio/joyland-webapp/3.png`,
+    ],
     title: "Joyland",
     shortDescription:
       "Joyland is a web portal as a marketing site , such as posting new events, line up, etc",
@@ -110,8 +117,8 @@ const projects = [
     projectType: "Web App",
   },
   {
-    mainImageUrl: "/assets/img/portfolio/xtremax-revamp/1.png",
-    images: [`/assets/img/portfolio/xtremax-revamp/1.png`],
+    mainImageUrl: "/assets/img/portfolio/halalin-portal/1.png",
+    images: [`/assets/img/portfolio/halalin-portal/1.png`],
     title: "Halalin",
     shortDescription: "Marketing site for halal industry aggregator company",
     mainDescription:
@@ -192,7 +199,10 @@ const projects = [
   },
   {
     mainImageUrl: "/assets/img/portfolio/chingay-webapp/1.png",
-    images: [`/assets/img/portfolio/chingay-webapp/1.png`],
+    images: [
+      `/assets/img/portfolio/chingay-webapp/1.png`,
+      `/assets/img/portfolio/chingay-webapp/2.png`,
+    ],
     title: "Chingay",
     shortDescription:
       "Web portal as marketing site for chingay community singapore",
@@ -206,7 +216,10 @@ const projects = [
   },
   {
     mainImageUrl: "/assets/img/portfolio/reach-portal/1.png",
-    images: [`/assets/img/portfolio/reach-portal/1.png`],
+    images: [
+      `/assets/img/portfolio/reach-portal/1.png`,
+      `/assets/img/portfolio/reach-portal/2.png`,
+    ],
     title: "REACH Portal",
     shortDescription: "Web portal as marketing site for REACH Gov SG",
     mainDescription: "Web portal as marketing site for REACH Gov SG",
