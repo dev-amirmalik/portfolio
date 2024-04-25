@@ -118,7 +118,10 @@ const projects = [
   },
   {
     mainImageUrl: "/assets/img/portfolio/halalin-portal/1.png",
-    images: [`/assets/img/portfolio/halalin-portal/1.png`],
+    images: [
+      `/assets/img/portfolio/halalin-portal/1.png`,
+      `/assets/img/portfolio/halalin-portal/2.png`,
+    ],
     title: "Halalin",
     shortDescription: "Marketing site for halal industry aggregator company",
     mainDescription:
